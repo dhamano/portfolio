@@ -1,0 +1,19 @@
+@import './vars';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font: normal normal normal 1rem/1.25em $font-stack-text;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: $font-stack-monospace;
+}
+
+@import './App';
+@import './nav';

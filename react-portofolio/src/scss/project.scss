@@ -1,0 +1,95 @@
+  .project article {
+
+    &:nth-child(even) {
+      background: #eee;
+    }
+
+    img {
+      width: calc(100% - 40px);
+      margin: 0 auto;
+      display: block;
+    }
+
+    .text {
+      margin-top: 40px;
+      padding: 0 20px;
+
+      h2 {
+        margin-top: 60px;
+        font-weight: 600;
+        line-height: 1.125em;
+      }
+
+      dt, dd {
+        font-size: 0.875rem;
+      }
+
+      dt {
+        margin-top: 10px;
+        font-weight: 600;
+
+        &:first-child {
+          margin-top: 30px;
+        }
+      }
+
+      dd {
+        margin-left: 0;
+      }
+    }
+
+    @media #{$tablet} {
+      & {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 5rem 30px;
+      }
+
+      img {
+        width: 100%;
+        max-width: 670px;
+      }
+
+      .text {
+        max-width: 670px;
+        margin: 40px auto 0;
+        padding: 0;
+
+        h2 {
+          font-size: 1.5rem;
+        }
+
+        p {
+          font-size: 1.25rem;
+          line-height: 1.2em;
+        }
+      }
+    }
+
+    @media #{$desktop} {
+
+      .container {
+        width: 100%;
+        max-width: 1200px;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+        flex-flow: row nowrap;
+
+        div.text {
+          padding-left: 60px;
+        }
+
+        &:nth-child(odd) {
+          flex-flow: row-reverse nowrap;
+
+          .text {
+            padding-right: 60px;
+            padding-left: 0;
+          }
+        }
+
+      }
+
+    }
+  }

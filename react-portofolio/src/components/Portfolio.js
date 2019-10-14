@@ -1,10 +1,19 @@
 import React from 'react';
 
+import Project from './Project';
+
+import { portfolio } from '../data/portfolio';
+
 const Portfolio = () => {
   return(
-    <main>
-      portfolio
-    </main>
+    <>
+      {
+        portfolio.map( (project, i) => {
+          // console.log(project);
+          return <Project {...project} key={i.toString().padStart(2, '0')} />
+        })
+      }
+    </>
   )
 }
 

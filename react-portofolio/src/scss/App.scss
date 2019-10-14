@@ -1,4 +1,33 @@
 .App {
-  width: 100vw;
+  min-width: 100vw;
   min-height: 100vh;
+
+  header {
+    padding-top: 10px;
+    background: #fff;
+    position: sticky;
+    top: 0;
+
+    @media #{$tablet} {
+      & {
+        padding: 16px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .logo {
+        position: static;
+      }
+
+    }
+  }
+
+  article {
+    padding: 5rem 0;
+
+    @media #{$desktop} {
+      max-width: 1200px;
+    }
+  }
 }

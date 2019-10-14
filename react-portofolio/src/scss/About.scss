@@ -1,0 +1,53 @@
+.portfolio .project article.about {
+  padding: 5rem 30px;
+  background: -moz-linear-gradient(top,  rgba(238,238,238,0.65) 0%, rgba(238,238,238,0) 75%, rgba(238,238,238,0) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(238,238,238,0.65) 0%,rgba(238,238,238,0) 75%,rgba(238,238,238,0) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(238,238,238,0.65) 0%,rgba(238,238,238,0) 75%,rgba(238,238,238,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6eeeeee', endColorstr='#00eeeeee',GradientType=0 ); /* IE6-9 */
+
+  
+  h2, p {
+    padding: 0 20px;
+  }
+
+  p {
+    font-size: 1.25rem;
+    line-height: 1.2em;
+
+    em {
+      font-size: 1.125rem;
+    }
+  }
+
+  @media #{$tablet} {
+
+    h2, p {
+      max-width: 670px;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 0;
+    }
+  }
+
+  @media #{$desktop} {
+    .container, .container:nth-child(odd) {
+      display: block;
+      
+      h2 {
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+      }
+  
+      div {
+        column-count: 2;
+  
+        p:first-child {
+          margin-top: 0;
+        }
+      }
+    }
+
+  }
+
+}

@@ -80,9 +80,13 @@
           padding-left: 60px;
         }
 
-        &:nth-child(odd) {
-          flex-flow: row-reverse nowrap;
+      }
 
+      &:nth-child(odd) {
+
+        .container {
+          flex-flow: row-reverse nowrap;
+          
           .text {
             padding-right: 60px;
             padding-left: 0;

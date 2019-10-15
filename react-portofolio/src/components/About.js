@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Linkedin from '../imgs/linkedin-logo.png';
+
 const About = () => {
   return(
     <article className="about" id="about">
@@ -20,6 +22,9 @@ const About = () => {
           <p>
             I am currently based in Los Angeles, CA. I enjoy spending my free time learning new things,
             playing PC video games, practicing photography, video editing, and drawing.
+          </p>
+          <p>
+            Get in Touch: <a href="//www.linkedin.com/in/dustin-hamano" className="linkedin" title="Dustin's Linkedin Page" target="_blank"><img src={Linkedin} alt="Linkedin Logo" /></a>
           </p>
         </div>
       </div>

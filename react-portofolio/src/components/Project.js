@@ -5,15 +5,33 @@ const Project = (props) => {
   return(
     <article>
       <div className="container">
-        <img src={props.image} alt={props.alt_text} />
+            {
+              props.image && (
+                <img src={props.image} alt={props.alt_text} />
+              )
+            }
         <div className="text">
-          <h2>{props.title}</h2>
-          <p>
-            {props.copy}
-          </p>
+            {
+              props.title && (
+                <h2>{props.title}</h2>
+              )
+            }
+            {
+              props.copy && (
+                <p>
+                  {props.copy}
+                </p>
+              )
+            }
           <dl>
-            <dt>Tech Stack</dt>
-            <dd>{props.tech_stack}</dd>
+            {
+              props.tech_stack && (
+                <>
+                <dt>Tech Stack</dt>
+                <dd>{props.tech_stack}</dd>
+                </>
+              )
+            }
             {
               props.dependencies && (
                 <>
@@ -23,6 +41,16 @@ const Project = (props) => {
               )
             }
           </dl>
+            {
+              props.github && (
+                <a href={props.github} title="Github" target="_blank">Github</a>
+              )
+            }
+            {
+              props.app_link && (
+                <a href={props.app_link} title="app link" target="_blank">{props.app_name}</a>
+              )
+            }
         </div>
       </div>
     </article>

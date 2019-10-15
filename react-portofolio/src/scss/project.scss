@@ -20,6 +20,10 @@
         line-height: 1.125em;
       }
 
+      dl {
+        margin-bottom: 30px;
+      }
+
       dt, dd {
         font-size: 0.875rem;
       }
@@ -36,6 +40,28 @@
       dd {
         margin-left: 0;
       }
+
+      a {
+        width: 100%;
+        padding: 14px 30px;
+        color: #333;
+        text-decoration: none;
+        text-align: center;
+        font-weight: 600;
+        display: block;
+        border: 2px solid #333;
+        border-radius: 10px;
+        cursor: pointer;
+
+        &:hover, &:active {
+          background: #333;
+          color: #fff;
+        }
+
+        &:last-child {
+          margin-top: 25px;
+        }
+      }
     }
 
     @media #{$tablet} {
@@ -48,6 +74,7 @@
       img {
         width: 100%;
         max-width: 670px;
+        height: 100%;
       }
 
       .text {
@@ -66,6 +93,21 @@
       }
     }
 
+    @media only screen and (min-width: 1158px) {
+
+      .text {
+        a {
+          width: 45%;
+          margin: 0  10% 0 0;
+          display: inline-block;
+  
+          &:last-child {
+            margin: 0;
+          }
+        }
+      }
+    }
+
     @media #{$desktop} {
 
       .container {
@@ -75,9 +117,15 @@
         margin-left: auto;
         display: flex;
         flex-flow: row nowrap;
+        align-items: center;
 
         div.text {
+          margin-top: 0;
           padding-left: 60px;
+
+          h2 {
+            margin-top: 0;
+          }
         }
 
       }

@@ -43,7 +43,7 @@ const Project = (props) => {
           </dl>
             {
               props.github && (
-                <a href={props.github} title="Github" target="_blank">Github</a>
+                <a href={props.github} class="github" title="Github" target="_blank">Github</a>
               )
             }
             {

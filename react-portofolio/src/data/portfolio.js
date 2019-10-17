@@ -12,7 +12,7 @@ export const portfolio = [
     image: Geograpics,
     alt_text: "Geograpics Screenshots",
     title: "Geograpics",
-    copy: "5x developers, 2x UI designers, 1x team lead. We created an app that pulls live data from an instagram account and displays it on a map with login. The challenge for this project was using social auth and grabbing that data to display on the frontend. We have further developments such as blog entries and photo uploading as future functionality.",
+    copy: "5x developers, 2x UI designers, 1x team lead, 1.5 months. We created an app that pulls live data from an instagram account and displays it on a map with login. The challenge for this project was using social auth and grabbing that data to display on the frontend. We have further developments such as blog entries and photo uploading as future functionality.",
     tech_stack: "React, Redux, node.js, express, passport.js",
     dependencies: "react-router-dom, node-sass, react-loader-spinner, react-map-gl, redux-logger, redux-thunk, prop-types, axios, cors, dotenv, helmet, jsonwebtoken, knex, pg, sqlite3, jest, nodemon, supertest, cross-env",
     github: "//github.com/Lambda-School-Labs/geograpics-fe",

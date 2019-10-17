@@ -44,22 +44,32 @@
       a {
         width: 100%;
         padding: 14px 30px;
-        color: #333;
+        color: $color-btn-link;
         text-decoration: none;
         text-align: center;
         font-weight: 600;
         display: block;
-        border: 2px solid #333;
+        border: 2px solid $color-btn-link;
         border-radius: 10px;
         cursor: pointer;
 
         &:hover, &:active {
-          background: #333;
+          background: $color-btn-link;
           color: #fff;
         }
 
         &:last-child {
           margin-top: 25px;
+        }
+
+        &.github {
+          color: $color-btn-github;
+          border-color: $color-btn-github;
+
+          &:hover {
+            color: $color-btn-github-text-hover;
+            background: $color-btn-github;
+          }
         }
       }
     }

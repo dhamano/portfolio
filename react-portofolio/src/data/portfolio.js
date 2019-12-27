@@ -1,3 +1,4 @@
+import JADA from '../imgs/JADA_MUD.png';
 import Geograpics from '../imgs/geograpics-app.png';
 import ExPatBackend from '../imgs/ExPat-Backend.png';
 import WeatherApp from '../imgs/weather-app.png';
@@ -8,6 +9,17 @@ import UCLA from '../imgs/UCLA-Vol.png';
 
 
 export const portfolio = [
+  {
+    image: JADA,
+    alt_text: "JADÁ MUD Screenshots",
+    title: "JADÁ MUD",
+    copy: "4x developers and 3.5 days. The challenge for this project was creating an algorithm that could put together a 500 room maze and attach a front-end that could display that maze as well as nvigate it. For this project I was able ot create the agorithm that create that map and helped with getting our front-end to be mobile friendly.",
+    tech_stack: "React, django.py",
+    dependencies: "react-router-dom, node-sass, axios, d3, react-d3-graph",
+    github: "//github.com/CS-LABS-JADA",
+    app_link: "//jada-mud.netlify.com/",
+    app_name: "JADÁ MUD"
+  },
   {
     image: Geograpics,
     alt_text: "Geograpics Screenshots",

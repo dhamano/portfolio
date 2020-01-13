@@ -17,7 +17,9 @@ const About = () => {
           <p>
             I have worked on a multitude of web and print based projects providing branding, graphic
             &amp; web design (<em>Photoshop, Illustrator, InDesign, XD</em>) and development (<em>HTML,
-            CSS, JS, jQuery, SCSS, WordPress, React, Redux, Bootstrap, Zurb Foundation, Responsive Layouts</em>). 
+            CSS, JS, jQuery, SCSS, WordPress, Bootstrap, Zurb Foundation, Responsive Layouts</em>).
+            Recently, I have been working on personal projects using <em>React, Redux, Node.js, Python,
+            and Django</em> working solo and with other developers.
           </p>
           <p>
             I am currently based in Los Angeles, CA. I enjoy spending my free time learning new things,

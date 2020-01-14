@@ -90,7 +90,7 @@ export const portfolio = [
     image: UCLA,
     alt_text: "UCLA Volunteer Website Screenshots",
     title: "UCLA Volunteer Website",
-    copy: "The biggest challenge for this project was getting that header collage to work grab live data from facebook and Flickr, display user photos of the tagged posts then, on click, display the user’s quote about the Activity they participated in.",
+    copy: "The biggest challenge for this project was getting that header collage to work grab live data from facebook and Flickr, display user photos of the tagged posts then, on click, display the user&rsquo;s quote about the Activity they participated in.",
     tech_stack: "HTML, CSS, PHP, JavaScript",
     dependencies: null,
     github: null,

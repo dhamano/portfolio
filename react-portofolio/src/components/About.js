@@ -9,7 +9,7 @@ const About = () => {
         <h2>About Me</h2>
         <div>
           <p>
-            After graduating with a Bachelor's Degree in Fine Arts with an Emphasis in Graphic Design,
+            After graduating with a Bachelor&rsquo;s Degree in Fine Arts with an Emphasis in Graphic Design,
             I spent the next years working as a designer and coder as part of a team and a freelancer.
             I was always interested in building websites since high school when I was first introduced
             to it. Later on learning CSS and PHP as I worked on building my own themes for WordPress.
